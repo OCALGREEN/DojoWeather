@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+
+
+/* Single Use Classess */
+.flex {
+    display: flex; 
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justifyj-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* Navigation Bars */
+.navigation-bar1 {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 50px; 
+}
+
+.navigation-bar2 {
+    border-bottom: 2px solid black;
+    padding: 20px 50px;
+}
+
+
+
+
+
+
+
+
+/* Specific Selection Classess */
+.navigation-bar2 select {
+    margin-left: 10px;
+}
+
+.box img {
+    border-radius: 50%;
+}
+
+.weather-nubmers :first-child{
+    color: blue;
+}
+.weather-nubmers :nth-child(2){
+    color: red;
+}
+
+.message img {
+    margin-right: 20px;
+}
+
+.message button {
+    margin-left: 20px;
+    background-color: blue;
+    padding: 10px 20px;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 2px; 
+}
+
+
+
+
+
+
+/* Body */
+.container {
+    width: auto;
+}
+
+.box {
+    background-color: lightgray;
+    margin: 20px;
+    width: 500px;
+    height: 1000px;
+}
+
+.weather-nubmers {
+    font-weight: 900;
+    font-size: x-large;
+    margin: 0px 50px;
+}
+
+.message {
+    border: 2px solid black;
+    background-color: white;
+    padding: 25px;
+    height: 100px;
+    width: 750px;
+    position: fixed; 
+    left: 500px;
+    bottom: 500px; 
+}

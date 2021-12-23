@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="navigation-bar1 flex align-center justify-between">
+        <h1>DojoWeather</h1>
+        <div class="flex align-center justify-between">
+            <h2 onclick="alert('Loading Weather Report')">Burbank</h2>
+            <h2 onclick="alert('Loading Weather Report')">Chicago</h2>
+            <h2 onclick="alert('Loading Weather Report')">Dallas</h2>
+        </div>
+    </div>
+
+    <div class="navigation-bar2 flex align-center justify-between">
+        <h2>San Jose</h2>
+        <div class="flex align-center justify-between">
+            <p>show temperature in</p>
+            <select name="" id="">
+                <option value="">Fahrenheit</option>
+                <option value="">Celsius</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="container flex align-center justify-evenly">
+        <div class="box">
+            <h2>Today</h2>
+            <img src="assets\assets\some_rain.png" alt="">
+            <h3>some rain</h3>
+            <div class="weather-nubmers flex align-center justify-between">
+                <p>24</p>
+                <p>18</p>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Tomorrow</h2>
+            <img src="assets\assets\some_sun.png" alt="">
+            <h3>some sun</h3>
+            <div class="weather-nubmers flex align-center justify-between">
+                <p>27</p>
+                <p>19</p>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Friday</h2>
+            <img src="assets\assets\some_clouds.png" alt="">
+            <h3>some clouds</h3>
+            <div class="weather-nubmers flex align-center justify-between">
+                <p>21</p>
+                <p>16</p>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Saturday</h2>
+            <img src="assets\assets\some_sun.png" alt="">
+            <h3>some sun</h3>
+            <div class="weather-nubmers flex align-center justify-between">
+                <p>26</p>
+                <p>21</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="message" onclick="hide(this)">
+        <div class="flex align-center justify-center">
+            <h2>Stop! Cookie Time</h2>
+        </div>
+        <div class="flex align-center justify-center">
+            <img src="assets\assets\cookie.png" alt="">
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="">Read more...</a></p>
+            <button>I Accept</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
